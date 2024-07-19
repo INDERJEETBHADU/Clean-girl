@@ -23,7 +23,9 @@
 
     .col-8 {
         @apply w-[66.64%] px-[12px];
+        
     }
+
 
     .col-4 {
         @apply w-[33.32%] px-[12px];

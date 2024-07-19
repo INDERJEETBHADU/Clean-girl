@@ -62,6 +62,7 @@ function Header() {
                   <CommonBtn
                     text="Pre-Order Magic Cleaning Foam"
                     border="border-[6px]  border-[#FEACD7]"
+                    padding="sm:py-[16px] py-[8px]"
                   />
                 </div>
                 <div className=" hidden md:block">

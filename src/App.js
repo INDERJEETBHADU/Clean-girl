@@ -3,6 +3,7 @@ import TopSection from './components/TopSection';
 import Header from "./components/Header"
 import Supporter from "./components/Supporter"
 import CleanFoam from "./components/CleanFoam"
+import Easy from "./components/Easy"
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Supporter />
       <CleanFoam />
-
+      <Easy/>
     </>
   );
 }
