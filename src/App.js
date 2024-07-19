@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import TopSection from './components/TopSection';
+import Header from "./components/Header"
+import Supporter from "./components/Supporter"
+import CleanFoam from "./components/CleanFoam"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TopSection />
+      <Header />
+      <Supporter />
+      <CleanFoam />
+
+    </>
   );
 }
 
