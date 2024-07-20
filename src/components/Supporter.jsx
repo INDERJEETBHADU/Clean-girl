@@ -3,7 +3,7 @@ import tiktok from "../assets/images/webp/tik-tok-1.webp";
 import tiktok_button from "../assets/images/svg/Famous _from_Tiktok.svg";
 import CommonHeading from "../common/CommonHeading";
 import btm_layer_suppoter from "../assets/images/webp/supporter_bottom_layer.webp";
-import btm_layer_suppoter_small from "../assets/images/webp/small-screen_supporter_btm.png";
+import btm_layer_suppoter_small from "../assets/images/webp/small-screen_supporter_btm.webp";
 
 function Supporter() {
   return (

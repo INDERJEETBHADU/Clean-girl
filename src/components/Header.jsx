@@ -62,7 +62,7 @@ function Header() {
                   <CommonBtn
                     text="Pre-Order Magic Cleaning Foam"
                     border="border-[6px]  border-[#FEACD7]"
-                    padding="sm:py-[16px] py-[8px]"
+                    padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
                   />
                 </div>
                 <div className=" hidden md:block">
@@ -85,6 +85,7 @@ function Header() {
               <CommonBtn
                 text="Pre-Order Magic Cleaning Foam"
                 border="border-[6px]  border-[#FEACD7]"
+                padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
               />
             </div>
             <div className=" hidden sm:block md:hidden ">

@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         'Shrikhand': "'Shrikhand', serif",
         'Lexend ': "'Lexend Deca', sans- serif",
+        'Jost ': "'Jost', sans- serif",
       },
       fontSize: {
         "ms": "40px",

@@ -15,7 +15,10 @@ function PreOrder() {
               alt="logo"
             />
             <div className=" flex items-center sm:gap-[30px] gap-[20px]">
-              <CommonBtn padding="sm:py-[16px] py-[8px]" text="Pre-Order" />
+              <CommonBtn
+                padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
+                text="Pre-Order"
+              />
               <Cart />
             </div>
           </div>
