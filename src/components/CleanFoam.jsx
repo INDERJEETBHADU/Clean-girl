@@ -4,14 +4,16 @@ import CommonHeading from "../common/CommonHeading";
 import CommonBtn from "../common/CommonBtn";
 import foam_girl from "../assets/images/webp/clean-foam-girl_left.webp";
 
+
 function CleanFoam() {
   return (
+    
     <>
       <div className=" bg-lightpink relative  max-w-[1920px] mx-auto ">
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
           {/* screen */}
           <div className=" hidden md:block">
-            <div className=" pt-5  flex justify-center ">
+            <div className=" pt-[48px]  flex justify-center ">
               <button className=" font-Lexend  flex items-center gap-2   py-[11px] px-[12px] rounded-[100px]  font-semibold  text-sm leading-[17.5px] text-white bg-black">
                 <TikTok />
                 Viral TikTok Cleaning Spray
@@ -43,7 +45,7 @@ function CleanFoam() {
             </div>
           </div>
           {/* row----col----part */}
-          <div className="row md:pt-[60px] pt-4 pb-[48px] sm:pb-5">
+          <div className="row md:pt-[60px] pt-4 pb-[48px] ">
             <div className="md:col-6 col-12 flex justify-center md:justify-start">
               <img
                 className=" max-w-[235px] md:max-w-[420px] lg:max-w-[477.01px] w-full"

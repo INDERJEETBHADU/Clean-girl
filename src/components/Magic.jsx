@@ -20,8 +20,8 @@ function Magic() {
   };
 
   return (
-    <div className="bg-lightpink">
-      <div className="text-center">
+    <div className="bg-lightpink  max-w-[1920px] mx-auto ">
+      <div className="text-center pt-[50px]">
         <CommonHeading text="What can Magic Foam Clean?" />
       </div>
       <Slider className="md:mt-[60px] mt-[24px] pb-[64px]" {...settings}>

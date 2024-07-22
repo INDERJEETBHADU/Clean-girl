@@ -20,7 +20,7 @@ function HeartFelt() {
   };
   return (
     <>
-      <div className=" max-md:bg-lightpink">
+      <div className=" max-md:bg-lightpink  max-w-[1920px] mx-auto ">
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
           <div className=" text-center">
             <CommonHeading text="Heartfelt Cleaning" />
@@ -30,7 +30,7 @@ function HeartFelt() {
           </div>
         </div>
         <Slider
-          className=" md:mt-[60px] mt-[40px]  md:pb-[100px] lg:pb-[150px]"
+          className=" md:mt-[60px] mt-[40px]  md:pb-[100px] lg:pb-[208px]"
           {...settings}
         >
           <div className=" mx-[12px]">

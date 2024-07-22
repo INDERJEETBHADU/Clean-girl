@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState, useEffect } from "react";
 import TopSection from './components/TopSection';
 import Header from "./components/Header"
 import Supporter from "./components/Supporter"
@@ -8,7 +9,22 @@ import HeartFelt from "./components/HeartFelt"
 import Spray from "./components/Spray"
 import Magic from "./components/Magic"
 import Footer from "./components/Footer"
+import Preloader from "./components/Preloader";
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
+
   return (
     <>
       <TopSection />

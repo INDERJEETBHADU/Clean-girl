@@ -13,6 +13,16 @@ module.exports = {
       fontSize: {
         "ms": "40px",
         "xxxl": "80px",
+        "6xxl": "52px",
+      },
+      animation: {
+        jump: 'jump 0.6s ease-in-out infinite',
+      },
+      keyframes: {
+        jump: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
       },
       colors: {
         mediumpink: "#FFB9D4",

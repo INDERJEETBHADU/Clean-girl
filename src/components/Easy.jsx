@@ -6,7 +6,7 @@ import easy_top_layer from "../assets/images/webp/easy-top-layer.webp";
 function Easy() {
   return (
     <>
-      <div className=" max-md:bg-lightpink">
+      <div className=" max-md:bg-lightpink  max-w-[1920px] mx-auto ">
         <div className=" hidden md:block">
           <img src={easy_top_layer} alt="easy-top-layer" />
         </div>

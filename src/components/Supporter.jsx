@@ -8,9 +8,9 @@ import btm_layer_suppoter_small from "../assets/images/webp/small-screen_support
 function Supporter() {
   return (
     <>
-      <div className=" mt-[-2px] relative">
+      <div className=" mt-[-2px] relative  max-w-[1920px] mx-auto ">
         <div className="container  max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
-          <div className="row max-md:flex-col-reverse  xl:pb-[180px] lg:pb-[120px] md:pb-[80px]   md:pt-[92px] lg:pt-[120px] xl:pt-[192px] ">
+          <div className="row max-md:flex-col-reverse  xl:pb-[203px] lg:pb-[120px] md:pb-[80px]   md:pt-[92px] lg:pt-[120px] xl:pt-[192px] ">
             <div className="xl:col-6  md:col-7   flex  justify-center col-12">
               <div className=" flex  flex-col  sm:flex-row   gap-[15px] md:gap-[19.2px] lg:gap-[40px] sm:gap-[25px] items-center max-md:mt-4 max-md:mb-4">
                 <img

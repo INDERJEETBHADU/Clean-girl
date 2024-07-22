@@ -10,7 +10,7 @@ import small_screen_layer from "../assets/images/webp/small-screen-bottom.webp";
 function Header() {
   return (
     <>
-      <div className=" bg-lightpink  relative  max-w-[1920px] mx-auto ">
+      <div className=" bg-lightpink  relative   max-w-[1920px] mx-auto ">
         <PreOrder />
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
           <div className=" sm:hidden">
@@ -85,7 +85,7 @@ function Header() {
               <CommonBtn
                 text="Pre-Order Magic Cleaning Foam"
                 border="border-[6px]  border-[#FEACD7]"
-                padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
+                padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[12px] "
               />
             </div>
             <div className=" hidden sm:block md:hidden ">
