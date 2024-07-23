@@ -61,7 +61,7 @@ function Spray() {
           </div>
         </div>
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
-          <div className="row md:pt-[300px] lg:pt-[486px] lg:pb-[150px] pb-[28px] sm:pb-[68px] md:pb-[98px]">
+          <div className="row md:pt-[300px] lg:pt-[450px] lg:pb-[150px] pb-[28px] sm:pb-[68px] md:pb-[98px]">
             <div className="md:col-6 col-12 flex items-center">
               <div className="">
                 <CommonHeading text="The Most Satisfying Cleaning Spray" />
