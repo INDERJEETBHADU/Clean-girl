@@ -11,7 +11,10 @@ function Easy() {
           <img src={easy_top_layer} alt="easy-top-layer" />
         </div>
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
-          <div className=" text-center md:pt-[14px] pt-[48px] ">
+          <div
+            className=" text-center md:pt-[14px] pt-[48px] "
+          
+          >
             <CommonHeading text="Easy & Fun!" />
           </div>
           <div className=" flex gap-4 flex-wrap md:mt-[50px] mt-[20px] lg:pb-[150px] pb-[48px]  justify-center">

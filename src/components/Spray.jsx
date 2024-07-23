@@ -34,7 +34,7 @@ function Spray() {
     <>
       <div className="bg-lightpink relative max-w-[1920px] mx-auto">
         <div className="hidden lg:block">
-          <div className="bg-[url(../src/assets/images/webp/number_bg.webp)] md:absolute top-[-7%] w-full h-[394px] bg-cover bg-center bg-no-repeat flex items-center justify-center">
+          <div className="bg-[url(../src/assets/images/webp/number_bg.webp)] md:absolute top-[-7%] w-full h-[394px] bg-[length:100%_100%] bg-center bg-no-repeat flex items-center justify-center">
             <div className="flex justify-center flex-col items-center">
               <h2 className="font-Lexend font-extrabold text-6xxl leading-[65px] text-center text-white">
                 4,281,923 +

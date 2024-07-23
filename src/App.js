@@ -11,6 +11,8 @@ import Magic from "./components/Magic";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 import BackToTopButton from "./components/BackToTopButton";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,6 +23,15 @@ function App() {
     }, 3000);
 
     return () => clearTimeout(timer);
+  }, []);
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+    });
   }, []);
 
   if (loading) {

@@ -12,10 +12,12 @@ function Footer() {
               text="Pre-Order Yours"
               border="border-[6px]  border-[#FEACD7]"
               padding="sm:py-[16px] py-[8px]  sm:px-[55.5px] px-[50px] "
+              hover="hover:bg-white hover:text-pink  duration-300  hover:border-[pink]"
             />
           </div>
           <div className=" flex justify-center xl:pb-[113px] pb-[37px] lg:pb-[70px] sm:pb-[50px]  mt-[40px] lg:mt-[70px] xl:mt-[130px] ">
             <img
+              data-aos="flip-left"
               className="  max-w-[100px] sm:max-w-[200px]  lg:w-[226.15px]:  cursor-pointer"
               src={footer_logo}
               alt="footer_logo"

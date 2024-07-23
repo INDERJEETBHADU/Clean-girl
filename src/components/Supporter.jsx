@@ -14,12 +14,14 @@ function Supporter() {
             <div className="xl:col-6  md:col-7   flex  justify-center col-12">
               <div className=" flex  flex-col  sm:flex-row   gap-[15px] md:gap-[19.2px] lg:gap-[40px] sm:gap-[25px] items-center max-md:mt-4 max-md:mb-4">
                 <img
+                  data-aos="fade-up"
                   className=" md:max-w-[172px] lg:max-w-[243px]  max-w-[180px]  w-full  shadow-3xl rounded-[13.54px] "
                   src={tiktok}
                   alt="tiktok"
                 />
                 <div className="  xl:translate-y-[-77.01px] lg:rotate-[3deg] ">
                   <img
+                    data-aos="fade-down"
                     className="  md:max-w-[172px] lg:max-w-[243px] max-w-[180px] h-full w-full  shadow-3xl rounded-[13.54px] "
                     src={tiktok}
                     alt="tiktok"
@@ -28,9 +30,9 @@ function Supporter() {
               </div>
             </div>
             <div className="xl:col-6 md:col-5  col-12 flex items-center md:justify-end justify-center">
-              <div className=" pt-4 max-md:text-center">
+              <div className=" pt-4 max-md:text-center" data-aos="flip-left">
                 <img
-                  className=" max-md:mx-auto"
+                  className="  cursor-pointer max-md:mx-auto"
                   src={tiktok_button}
                   alt="tiktok_button"
                 />

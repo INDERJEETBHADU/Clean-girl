@@ -47,6 +47,7 @@ function CleanFoam() {
           <div className="row md:pt-[60px] pt-4 pb-[48px] ">
             <div className="md:col-6 col-12 flex justify-center md:justify-start">
               <img
+                data-aos="fade-up"
                 className=" max-w-[235px] md:max-w-[420px] lg:max-w-[477.01px] w-full"
                 src={foam_girl}
                 alt="foam_girl"
@@ -113,7 +114,7 @@ function CleanFoam() {
                       Sold Out
                     </h6>
                   </div>
-                  <div className="max-w-[510px] border-[2px] border-[#053167] bg-[url(./assets/images/webp/ship_box_bg_layer.webp)] bg-cover bg-center bg-no-repeat flex   justify-between items-center  w-full mt-[16px]  rounded-[50px] bg-transparent py-[20px] px-[14px] sm:py-[20px] sm:px-[24px]  ">
+                  <div className="max-w-[510px] border-[2px] border-[#053167] bg-[url(./assets/images/webp/ship_box_bg_layer.webp)]  bg-[length:90%_100%] bg-left  bg-no-repeat flex   justify-between items-center  w-full mt-[16px]  rounded-[50px] bg-transparent py-[20px] px-[14px] sm:py-[20px] sm:px-[24px]  ">
                     <h6 className=" font-Lexend  font-normal text-base leading-[20px] text-white ">
                       March 14
                     </h6>

@@ -20,7 +20,9 @@ function PreOrder() {
                 text="Pre-Order"
                 hover="hover:bg-white hover:text-pink hover:border-[1px] duration-300  hover:border-[pink]"
               />
-              <Cart />
+              <div className="  cursor-pointer">
+                <Cart />
+              </div>
             </div>
           </div>
         </div>
