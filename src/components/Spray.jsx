@@ -51,8 +51,8 @@ function Spray() {
           <div className="">
             <img className="w-full" src={top_layer} alt="top_layer" />
           </div>
-          <div className="bg-pink h-[104.17px] mt-[-2px] mb-[-2px]">
-            <h2 className="font-Lexend relative z-20 font-extrabold text-6xxl leading-[65px] text-center text-white">
+          <div className="bg-pink h-[104.17px] flex justify-center   items-center mt-[-2px] mb-[-2px]">
+            <h2 className="font-Lexend relative z-20 font-extrabold sm:text-6xxl text-[45px] leading-[55px]  sm:leading-[65px] text-center text-white">
               4,281,923 +
             </h2>
           </div>
@@ -73,7 +73,7 @@ function Spray() {
                   <CommonBtn
                     text="Pre-Order"
                     border="border-[6px] border-[#FEACD7]"
-                    padding="sm:py-[16px] py-[8px] sm:px-[80.5px] px-[16px]"
+                    padding="sm:py-[16px] py-[8px] sm:px-[80.5px] px-[40px]"
                     hover="hover:bg-white hover:text-pink  duration-300  hover:border-[pink]"
                   />
                 </div>
