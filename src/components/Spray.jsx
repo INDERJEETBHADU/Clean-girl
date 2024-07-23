@@ -9,7 +9,7 @@ import { Back, Next } from "../common/Icon";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import slider_img from "../assets/images/webp/slider-img.webp";
+import slider_img from "../assets/images/webp/slider_img_statifiy.webp";
 
 function Spray() {
   const swiperRef = useRef(null);
