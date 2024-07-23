@@ -79,7 +79,7 @@ function Spray() {
                 </div>
               </div>
             </div>
-            <div className="md:col-6 pt-[40px] col-12 relative">
+            <div className="md:col-6 pt-[40px] md:pt-[0px] col-12 relative">
               {/* slider---part---here */}
               <Swiper
                 ref={swiperRef}
