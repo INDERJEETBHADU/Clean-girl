@@ -1,6 +1,6 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
-import slide_img from "../assets/images/webp/slide-imgs.png";
+import slide_img from "../assets/images/webp/slider-img.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

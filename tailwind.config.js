@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       fontFamily: {
         'Shrikhand': "'Shrikhand', serif",
         'Lexend ': "'Lexend Deca', sans- serif",

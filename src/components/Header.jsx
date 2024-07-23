@@ -63,6 +63,7 @@ function Header() {
                     text="Pre-Order Magic Cleaning Foam"
                     border="border-[6px]  border-[#FEACD7]"
                     padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
+                    hover="hover:bg-white hover:text-pink  duration-300  hover:border-[pink]"
                   />
                 </div>
                 <div className=" hidden md:block">
@@ -86,6 +87,7 @@ function Header() {
                 text="Pre-Order Magic Cleaning Foam"
                 border="border-[6px]  border-[#FEACD7]"
                 padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[12px] "
+                hover="hover:bg-white hover:text-pink  duration-300  hover:border-[pink]"
               />
             </div>
             <div className=" hidden sm:block md:hidden ">

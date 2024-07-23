@@ -18,6 +18,7 @@ function PreOrder() {
               <CommonBtn
                 padding="sm:py-[16px] py-[8px]  sm:px-[20px] px-[16px] "
                 text="Pre-Order"
+                hover="hover:bg-white hover:text-pink hover:border-[1px] duration-300  hover:border-[pink]"
               />
               <Cart />
             </div>

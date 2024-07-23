@@ -16,7 +16,7 @@ function Footer() {
           </div>
           <div className=" flex justify-center xl:pb-[113px] pb-[37px] lg:pb-[70px] sm:pb-[50px]  mt-[40px] lg:mt-[70px] xl:mt-[130px] ">
             <img
-              className="   lg:w-[226.15px]:  cursor-pointer"
+              className="  max-w-[100px] sm:max-w-[200px]  lg:w-[226.15px]:  cursor-pointer"
               src={footer_logo}
               alt="footer_logo"
             />

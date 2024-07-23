@@ -4,10 +4,8 @@ import CommonHeading from "../common/CommonHeading";
 import CommonBtn from "../common/CommonBtn";
 import foam_girl from "../assets/images/webp/clean-foam-girl_left.webp";
 
-
 function CleanFoam() {
   return (
-    
     <>
       <div className=" bg-lightpink relative  max-w-[1920px] mx-auto ">
         <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
@@ -41,6 +39,7 @@ function CleanFoam() {
               <CommonBtn
                 padding="sm:py-[10px] py-[8px]  sm:px-[20px] px-[16px] "
                 text="Early Bird Discount"
+                hover="hover:bg-white hover:text-pink border-[1px] border-solid border-transparent hover:border-[1px] duration-300  hover:border-[pink]"
               />
             </div>
           </div>
@@ -83,6 +82,7 @@ function CleanFoam() {
                   <CommonBtn
                     padding="sm:py-[10px] py-[8px]  sm:px-[20px] px-[16px] "
                     text="Early Bird Discount"
+                    hover="hover:bg-white hover:text-pink border-[1px] border-solid border-transparent hover:border-[1px] duration-300  hover:border-[pink]"
                   />
                 </div>
               </div>
@@ -136,6 +136,7 @@ function CleanFoam() {
                     text="Pre-Order Magic Cleaning Foam"
                     border="border-[6px]  border-[#FEACD7]"
                     padding="sm:py-[16px] py-[12px]  md:px-[35px] xl:px-[123px] px-[60px] "
+                    hover="hover:bg-white hover:text-pink  duration-300  hover:border-[pink]"
                   />
                 </div>
                 <div className=" flex items-center  gap-[5px] sm:mt-[28px] mt-[14px] ">
